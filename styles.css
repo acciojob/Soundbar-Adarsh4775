@@ -1,1 +1,29 @@
 /*  your css code here. If applicable */
+body{
+	background-color:darkviolet;
+}
+.btn,.stop{
+	
+	background-color:blueviolet;
+	color:white;
+	padding-inline:20px;
+	padding-top:10px;
+	padding-bottom:10px;
+	margin:10px;
+	border:1px solid white;
+	border-radius:10px;
+	}
+#buttons{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	height:500px;
+}
+.btn:hover{
+	color:crimson;
+	background-color:ghostwhite;
+}
+.stop:hover{
+	color:red;
+	background-color:ghostwhite;
+}
